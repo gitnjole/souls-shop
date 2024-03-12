@@ -39,7 +39,7 @@
               <img class="w-100" :src="`./assets/images/${item.image}`"  :alt="item.name"/>
               <div class="p-3">
                 <h5 class="item-name">{{ item.name }}</h5>
-                <h6 class="item-weight">{{ item.weight }}</h6>
+                <h6 class="item-effect">{{ item.effect }}</h6>
                 <button @click="addRing(item.id)" type="button" 
                         :class="{ 'add-cart': true, 'chosen': isRingChosen(item.id) }" 
                         :disabled="cart.length >= 4 && !isRingChosen(item.id)">
@@ -61,7 +61,7 @@
             <img class="order-item-image" :src="`./assets/images/${item.image}`" :alt="item.image" />
             <div class="order-item-content">
               <h5>
-                {{item.name}} - {{item.weight.toFixed(2)}}
+                {{item.name}} - {{item.effect}}
               </h5>
 
               <p>
@@ -93,14 +93,15 @@
         </div>
 
         <div class="total-section">
-          <h6 class="total-title">Total Effects:</h6>
+          <h6 class="total-title">Total Effects gained:</h6>
           <ul class="effects-list">
             <li v-for="(effect, index) in getTotalEffects()" :key="index">
               {{ effect.trim() }}
             </li>
           </ul>
         </div>
-           
+        <div class="total-section">
+        </div>
 
       </div>
     </div>
