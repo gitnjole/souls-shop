@@ -5,7 +5,8 @@
         "name": "ASHEN ESTUS RING",
         "weight": 0.8,
         "effect": "Increases FP restored with Ashen Estus Flask",
-        "actualEffect": "Increased the amount of FP restored from drinking from the Ashen Estus Flask by 20%."
+        "actualEffect": "Increased the amount of FP restored from drinking from the Ashen Estus Flask by 20%.",
+        "category": "Utility"
     },
     {
         "id": 2,
@@ -13,7 +14,8 @@
         "name": "CHLORANTHY RING",
         "weight": 0.7,
         "effect": "Raises stamina recovery speed",
-        "actualEffect": "Stamina regeneration speed increased by 7 points per second."
+        "actualEffect": "Stamina regeneration speed increased by 7 points per second.",
+        "category": "Utility"
     },
     {
         "id": 3,
@@ -21,7 +23,8 @@
         "name": "ESTUS RING",
         "weight": 0.8,
         "effect": "Increases HP restored with Estus Flask",
-        "actualEffect": "Increased HP restored by drinking from the Estus Flask by 20%."
+        "actualEffect": "Increased HP restored by drinking from the Estus Flask by 20%.",
+        "category": "Utility"
     },
     {
         "id": 4,
@@ -29,7 +32,8 @@
         "name": "HAVEL'S RING",
         "weight": 1.5,
         "effect": "Increases maximum load",
-        "actualEffect": "Increased maximum Equip Load by 15%."
+        "actualEffect": "Increased maximum Equip Load by 15%.",
+        "category": "Utility"
     },
     {
         "id": 5,
@@ -37,7 +41,8 @@
         "name": "LIFE RING",
         "weight": 0.3,
         "effect": "Raises maximum HP",
-        "actualEffect": "Vigor raised by 7%"
+        "actualEffect": "Vigor raised by 7%",
+        "category": "Utility"
     },
     {
         "id": 6,
@@ -45,7 +50,8 @@
         "name": "PRISONER'S CHAIN RING",
         "weight": 0.8,
         "effect": "Increases Vigor, Endurance and Vitality, but take more damage.",
-        "actualEffect": "Increased Vigor, Endurance and Vitality by 5 points each, but reduces the wearer's damage absorption by 4% in all categories."
+        "actualEffect": "Increased Vigor, Endurance and Vitality by 5 points each, but reduces the wearer's damage absorption by 4% in all categories.",
+        "category": "Utility"
     },
     {
         "id": 7,
@@ -53,7 +59,8 @@
         "name": "RING OF FAVOR",
         "weight": 1.5,
         "effect": "Increases HP, stamina, and maximum equip load",
-        "actualEffect": "Increased maximum HP by 3%, Stamina by 9%, and maximum Equip Load by 5%"
+        "actualEffect": "Increased maximum HP by 3%, Stamina by 9%, and maximum Equip Load by 5%",
+        "category": "Utility"
     },
     {
         "id": 8,
@@ -61,7 +68,8 @@
         "name": "RING OF STEEL PROTECTION",
         "weight": 0.8,
         "effect": "Increases physical damage absorption",
-        "actualEffect": "Increased Physical damage absorption by 10%, 2% in PvP."
+        "actualEffect": "Increased Physical damage absorption by 10%, 2% in PvP.",
+        "category": "Offensive"
     },
     {
         "id": 9,
@@ -69,6 +77,424 @@
         "name": "SUN PRINCESS RING",
         "weight": 0.6,
         "effect": "Gradually restores HP",
-        "actualEffect": "Restores 2 HP per second"
+        "actualEffect": "Restores 2 HP per second",
+        "category": "Utility"
+    },
+    {
+        "id": 10,
+        "image": "Magic_Stoneplate_Ring.webp",
+        "name": "MAGIC STONEPLATE RING",
+        "weight": 0.6,
+        "effect": "Increases magic damage absorption",
+        "actualEffect": "Increased Magic damage absorption by 13%, 4% in PvP.",
+        "actualEffect+1": "Increased Magic damage absorption by 17%, 5% in PvP.",
+        "actualEffect+2": "Increased Magic damage absorption by 20%, 6% in PvP.",
+        "category": "Defensive"
+    },
+    {
+        "id": 11,
+        "image": "Flame_Stoneplate_Ring_DSIII.webp",
+        "name": "FLAME STONEPLATE RING",
+        "weight": 0.6,
+        "effect": "Increases fire damage absorption",
+        "actualEffect": "Increased Fire damage absorption by 13%, 4% in PvP.",
+        "actualEffect+1": "Increased Fire damage absorption by 17%, 5% in PvP.",
+        "actualEffect+2": "Increased Fire damage absorption by 20%, 6% in PvP.",
+        "category": "Defensive"
+    },
+    {
+        "id": 12,
+        "image": "Thunder_Stoneplate_Ring_DSIII.webp",
+        "name": "THUNDER STONEPLATE RING",
+        "weight": 0.6,
+        "effect": "Increases lightning damage absorption",
+        "actualEffect": "Increased Lightning damage absorption by 13%, 4% in PvP.",
+        "actualEffect+1": "Increased Lightning damage absorption by 17%, 5% in PvP.",
+        "actualEffect+2": "Increased Lightning damage absorption by 20%, 6% in PvP.",
+        "category": "Defensive"
+    },
+    {
+        "id": 13,
+        "image": "Dark_Stoneplate_Ring.webp",
+        "name": "DARK STONEPLATE RING",
+        "weight": 0.6,
+        "effect": "Increases dark damage absorption",
+        "actualEffect": "Increased Dark damage absorption by 13%, 4% in PvP.",
+        "actualEffect+1": "Increased Dark damage absorption by 17%, 5% in PvP.",
+        "actualEffect+2": "Increased Dark damage absorption by 20%, 6% in PvP.",
+        "category": "Defensive"
+    },
+    {
+        "id": 14,
+        "image": "Speckled_Stoneplate_Ring_DSIII.webp",
+        "name": "SPECKLED STONEPLATE RING",
+        "weight": 0.9,
+        "effect": "Slightly increases magic, lightning, fire and dark damage absorption",
+        "actualEffect": "Increased Magic, Fire, Lightning and Dark damage absorption by 5%, 2% in PvP.",
+        "actualEffect+1": "Increased Magic, Fire, Lightning and Dark damage absorption by 7%, 3% in PvP.",
+        "category": "Defensive"
+    },
+    {
+        "id": 15,
+        "image": "Bloodbite_Ring_DSIII.webp",
+        "name": "BLOODBITE RING",
+        "weight": 0.6,
+        "effect": "Increases bleed resistance",
+        "actualEffect": "Increased Bleed resistance by 90 points.",
+        "actualEffect+1": "Increases Bleed resistance by 190 points.",
+        "category": "Defensive"
+    },
+    {
+        "id": 16,
+        "image": "Poisonbite_Ring_DSIII.webp",
+        "name": "POISONBITE RING",
+        "weight": 0.6,
+        "effect": "Increases poison resistance",
+        "actualEffect": "Increased Poison resistance by 90 points.",
+        "actualEffect+1": "Increases Poison resistance by 190 points.",
+        "category": "Defensive"
+    },
+    {
+        "id": 17,
+        "image": "Chillbite_Ring.webp",
+        "name": "CHILLBITE RING",
+        "weight": 0.6,
+        "effect": "Increases frost resistance",
+        "actualEffect": "Increased Frost resistance by 140 points.",
+        "category": "Defensive"
+    },
+    {
+        "id": 18,
+        "image": "Cursebite_Ring_DSIII.webp",
+        "name": "CURSEBITE RING",
+        "weight": 0.6,
+        "effect": "Increases curse resistance",
+        "actualEffect": "Increased Curse resistance by 90 points.",
+        "category": "Defensive"
+    },
+    {
+        "id": 19,
+        "image": "Fleshbite_Ring.webp",
+        "name": "FLESHBITE RING",
+        "weight": 0.9,
+        "effect": "Raises poison, bleed, curse and frost resist",
+        "actualEffect": "Increased Poison, Bleed, Frost and Curse resistance by 40 points.",
+        "actualEffect+1": "Increased Poison, Bleed, Frost and Curse resistance by 60 points.",
+        "category": "Defensive"
+    },
+    {
+        "id": 20,
+        "image": "Knights_Ring.webp",
+        "name": "KNIGHT'S RING",
+        "weight": 0.8,
+        "effect": "Increases strength",
+        "actualEffect": "Increased Strength by 5 points.",
+        "category": "Utility"
+    },
+    {
+        "id": 21,
+        "image": "Hunters_Ring.webp",
+        "name": "HUNTER'S RING",
+        "weight": 0.8,
+        "effect": "Increases dexterity",
+        "actualEffect": "Increased Dexterity by 5 points.",
+        "category": "Utility"
+    },
+    {
+        "id": 22,
+        "image": "Scholar_Ring.webp",
+        "name": "SCHOLAR RING",
+        "weight": 0.6,
+        "effect": "Increases intelligence",
+        "actualEffect": "Increased Intelligence by 5 points.",
+        "category": "Utility"
+    },
+    {
+        "id": 23,
+        "image": "Priestess_Ring.webp",
+        "name": "PRIESTESS RING",
+        "weight": 0.6,
+        "effect": "Increases faith",
+        "actualEffect": "Increased Faith by 5 points.",
+        "category": "Utility"
+    },
+    {
+        "id": 24,
+        "image": "Covetous_Silver_Serpent_Ring_DSIII.webp",
+        "name": "COVETOUS SILVER SERPENT RING",
+        "weight": 1.2,
+        "effect": "Fallen foes yield more souls",
+        "actualEffect": "Fallen enemies yield 10% more souls.",
+        "actualEffect+1": "Fallen enemies yield 20% more souls.",
+        "actualEffect+2": "Fallen enemies yield 30% more souls.",
+        "actualEffect+3": "Fallen enemies yield 35% more souls.",
+        "category": "Utility"
+    },
+    {
+        "id": 25,
+        "image": "Covetous_Gold_Serpent_Ring_DSIII.webp",
+        "name": "COVETOUS GOLD SERPENT RING",
+        "weight": 1.2,
+        "effect": "Fallen foes are more likely to drop items",
+        "actualEffect": "Increased Item Discovery by 50",
+        "actualEffect+1": "Increased Item Discovery by 75",
+        "actualEffect+2": "Increased Item Discovery by 100",
+        "actualEffect+3": "Increased Item Discovery by 115",
+        "category": "Utility"
+    },
+    {
+        "id": 26,
+        "image": "Saints_Ring.webp",
+        "name": "SAINT'S RING",
+        "weight": 0.5,
+        "effect": "Allows attunement of additional spells",
+        "actualEffect": "Granted an additional Attunement slot when equipped.",
+        "category": "Utility"
+    },
+    {
+        "id": 27,
+        "image": "Deep_Ring.webp",
+        "name": "DEEP RING",
+        "weight": 0.5,
+        "effect": "Allows attunement of additional spells",
+        "actualEffect": "Granted an additional Attunement slot when equipped.",
+        "category": "Utility"
+    },
+    {
+        "id": 28,
+        "image": "Darkmoon_Ring.webp",
+        "name": "DARKMOON RING",
+        "weight": 0.8,
+        "effect": "Adds many slots for attunement",
+        "actualEffect": "Granted two additional Attunement slot when equipped.",
+        "category": "Utility"
+    },
+    {
+        "id": 29,
+        "image": "Young_Dragon_Ring.webp",
+        "name": "YOUNG DRAGON RING",
+        "weight": 0.7,
+        "effect": "Boosts sorceries",
+        "actualEffect": "Boosts the power of offensive sorceries by 12%.",
+        "category": "Offensive"
+    },
+    {
+        "id": 30,
+        "image": "Bellowing_Dragoncrest_Ring_DSIII.webp",
+        "name": "BELLOWING DRAGONCREST RING",
+        "weight": 1.0,
+        "effect": "Greatly boosts sorceries",
+        "actualEffect": "Boosts the power of offensive sorceries by 20%.",
+        "category": "Offensive"
+    },
+    {
+        "id": 31,
+        "image": "Great_Swamp_Ring.webp",
+        "name": "GREAT SWAMP RING",
+        "weight": 0.7,
+        "effect": "Boosts pyromancies",
+        "actualEffect": "Boosts the power of offensive pyromancies by 12%.",
+        "category": "Offensive"
+    },
+    {
+        "id": 32,
+        "image": "Witchs_Ring.webp",
+        "name": "WITCH'S RING",
+        "weight": 1.0,
+        "effect": "Greatly boosts pyromancies",
+        "actualEffect": "Boosts the power of offensive pyromancies by 20%.",
+        "category": "Offensive"
+    },
+    {
+        "id": 33,
+        "image": "Mornes_Ring.webp",
+        "name": "MORNE'S RING",
+        "weight": 0.7,
+        "effect": "Increases miracles' effectiveness",
+        "actualEffect": "Increases miracles' effectiveness by 12%.",
+        "category": "Utility"
+    },
+    {
+        "id": 34,
+        "image": "Ring_of_the_Suns_First_Born.webp",
+        "name": "RING OF THE SUN'S FIRST BORN",
+        "weight": 1.0,
+        "effect": "Boosts miracles' power",
+        "actualEffect": "Boosts miracles' power by 20%.",
+        "category": "Offensive"
+    },
+    {
+        "id": 35,
+        "image": "Lingering_Dragoncrest_Ring_DSIII.29webp",
+        "name": "LINGERING DRAGONCREST RING",
+        "weight": 0.5,
+        "effect": "Extends the length of spell effects",
+        "actualEffect": "Extends the length of spell effects by 30%.",
+        "actualEffect+1": "Extends the length of spell effects by 35%.",
+        "actualEffect+2": "Extends the length of spell effects by 40%.",
+        "category": "Utility"
+    },
+    {
+        "id": 36,
+        "image": "Sage_Ring.webp",
+        "name": "SAGE RING",
+        "weight": 0.7,
+        "effect": "Shortens spell casting time",
+        "actualEffect": "Increased virtual Dexterity by 30, effectively increasing spell casting speed.",
+        "actualEffect+1": "Increased virtual Dexterity by 35, effectively increasing spell casting speed.",
+        "actualEffect+2": "Increased virtual Dexterity by 40, effectively increasing spell casting speed.",
+        "category": "Utility"
+    },
+    {
+        "id": 37,
+        "image": "Dusk_Crown_Ring_DaSIII.webp",
+        "name": "DUSK CROWN RING",
+        "weight": 0.6,
+        "effect": "Reduces FP consumption of spells",
+        "actualEffect": "Reduced FP consumption of spells by 25%. Reduced HP by 15%.",
+        "category": "Utility"
+    },
+    {
+        "id": 38,
+        "image": "Leo_Ring_DSIII.webp",
+        "name": "LEO RING",
+        "weight": 0.5,
+        "effect": "Boosts counter attacks",
+        "actualEffect": "Increased counter attacks' damage by 15%.",
+        "category": "Offensive"
+    },
+    {
+        "id": 39,
+        "image": "Wolf_Ring_DSIII.webp",
+        "name": "WOLF RING",
+        "weight": 0.5,
+        "effect": "Increases poise",
+        "actualEffect": "Increased poise by 4%.",
+        "actualEffect+1": "Increased poise by 6%.",
+        "actualEffect+2": "Increased poise by 8%.",
+        "actualEffect+3": "Increased poise by 9%.",
+        "category": "Defensive"
+    },
+    {
+        "id": 40,
+        "image": "Hawk_Ring_DSIII.webp",
+        "name": "HAWK RING",
+        "weight": 0.7,
+        "effect": "Increases bow range",
+        "actualEffect": "Increased bow range by 50%.",
+        "category": "Special"
+    },
+    {
+        "id": 41,
+        "image": "Hornet_Ring_DSIII.webp",
+        "name": "HORNET RING",
+        "weight": 1.1,
+        "effect": "Boosts critical attacks",
+        "actualEffect": "Increased critical attacks' damage by 30%.",
+        "category": "Offensive"
+    },
+    {
+        "id": 42,
+        "image": "Knight_Slayers_Ring.webp",
+        "name": "KNIGHT SLAYER'S RING",
+        "weight": 0.9,
+        "effect": "Enemies lose more stamina when guarding attacks",
+        "actualEffect": "Increased stamina damage dealt to blocking opponents by 10%.",
+        "category": "Offensive"
+    },
+    {
+        "id": 43,
+        "image": "Ring_of_the_Evil_Eye_DSIII.webp",
+        "name": "RING OF THE EVIL EYE",
+        "weight": 1.0,
+        "effect": "Absorbs HP from defeated foes",
+        "actualEffect": "Restored HP from defeated foes, restoring 30 HP per enemy defeated.",
+        "actualEffect+1": "Restored HP from defeated foes, restoring 33 HP per enemy defeated.",
+        "actualEffect+2": "Restored HP from defeated foes, restoring 35 HP per enemy defeated.",
+        "actualEffect+3": "Restored HP from defeated foes, restoring 37 HP per enemy defeated.",
+        "category": "Defensive"
+    },
+    {
+        "id": 44,
+        "image": "Farron_Ring.webp",
+        "name": "FARRON RING",
+        "weight": 0.8,
+        "effect": "Reduces FP consumption of skills",
+        "actualEffect": "Reduced FP consumption of skills by 25%.",
+        "category": "Utility"
+    },
+    {
+        "id": 45,
+        "image": "Dragonscale_Ring.webp",
+        "name": "DRAGONSCALE RING",
+        "weight": 1.1,
+        "effect": "Reduces damage from backstabs",
+        "actualEffect": "Reduced damage taken from backstabs by 30%.",
+        "category": "Defensive"
+    },
+    {
+        "id": 46,
+        "image": "Horsehoof_Ring.webp",
+        "name": "HORSEHOOF RING",
+        "weight": 0.6,
+        "effect": "Boosts kick effect",
+        "actualEffect": "Enemies lose 30% more stamina when guarding against the player's kicks.",
+        "category": "Offensive"
+    },
+    {
+        "id": 47,
+        "image": "Horsehoof_Ring.webp",
+        "name": "WOOD GRAIN RING",
+        "weight": 0.5,
+        "effect": "Slows equipment degradation",
+        "actualEffect": "Increased equipped weapon's Durability by 20%.",
+        "actualEffect+1": "Increased equipped weapon's Durability by 30%.",
+        "actualEffect+2": "Increased equipped weapon's Durability by 40%.",
+        "category": "Offensive"
+    },
+    {
+        "id": 48,
+        "image": "Flynns_Ring_DSIII.webp",
+        "name": "FLYNN'S RING",
+        "weight": 0.9,
+        "effect": "Lowering equip load increases attack",
+        "actualEffect": "Boosts attack power based on low equip load, up to a maximum of 15%",
+        "category": "Offensive"
+    },
+    {
+        "id": 49,
+        "image": "Magic_Clutch_Ring.webp",
+        "name": "MAGIC CLUTCH RING",
+        "weight": 0.8,
+        "effect": "Increases magic attack but compromises damage absorption",
+        "actualEffect": "Increases magic attack by 15%, but reduces damage absorption by 10%",
+        "category": "Offensive"
+    },
+    {
+        "id": 50,
+        "image": "Lightning_Clutch_Ring_DSIII.webp",
+        "name": "LIGHTNING CLUTCH RING",
+        "weight": 0.8,
+        "effect": "Increases lightning attack but compromises damage absorption",
+        "actualEffect": "Increases lightning attack by 15%, but reduces damage absorption by 10%",
+        "category": "Offensive"
+    },
+    {
+        "id": 51,
+        "image": "Fire_Clutch_Ring_DSIII.webp",
+        "name": "FIRE CLUTCH RING",
+        "weight": 0.8,
+        "effect": "Increases fire attack but compromises damage absorption",
+        "actualEffect": "Increases fire attack by 15%, but reduces damage absorption by 10%",
+        "category": "Offensive"
+    },
+    {
+        "id": 52,
+        "image": "Dark_Clutch_Ring_DSIII.webp",
+        "name": "DARK CLUTCH RING",
+        "weight": 0.8,
+        "effect": "Increases dark attack but compromises damage absorption",
+        "actualEffect": "Increases dark attack by 15%, but reduces damage absorption by 10%",
+        "category": "Offensive"
     }
 ]
