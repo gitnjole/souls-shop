@@ -41,7 +41,7 @@
               <div class="p-3">
                 <h5 class="item-name">{{ item.name }}</h5>
                 <h6 class="item-weight">{{ item.weight }}</h6>
-                <button @click="addRing(item.id)" type="button" class="add-cart">Add to Cart</button>
+                <button @click="addRing(item.id)" type="button" class="add-cart">Add to Hand</button>
               </div>
             </div>
           </div>
@@ -51,7 +51,7 @@
       </div>
       <div class="col-3 cart p-4">
         <h3 class="title">
-          Your Basket
+          Your Hand
         </h3>
 
         <div class="order-items" v-if="cart.length > 0">
@@ -59,7 +59,7 @@
             <img class="order-item-image" :src="`./images/${item.image}`" :alt="item.image" />
             <div class="order-item-content">
               <h5>
-                {{item.name}} - ${{item.weight.toFixed(2)}}
+                {{item.name}} - {{item.weight.toFixed(2)}}
               </h5>
 
               <p>
@@ -81,7 +81,7 @@
 
         <div class="cart-empty" v-else>
           <p class="text-center">
-            Your basket is empty
+            You haven't chosen any rings.
           </p>
         </div>
 
