@@ -467,7 +467,7 @@
         "name": "MAGIC CLUTCH RING",
         "weight": 0.8,
         "effect": "Increases magic attack but compromises damage absorption",
-        "actualEffect": "Increases magic attack by 15%, but reduces damage absorption by 10%",
+        "actualEffect": "Increased magic attack by 15%, but reduces damage absorption by 10%",
         "category": "Offensive"
     },
     {
@@ -476,7 +476,7 @@
         "name": "LIGHTNING CLUTCH RING",
         "weight": 0.8,
         "effect": "Increases lightning attack but compromises damage absorption",
-        "actualEffect": "Increases lightning attack by 15%, but reduces damage absorption by 10%",
+        "actualEffect": "Increased lightning attack by 15%, but reduces damage absorption by 10%",
         "category": "Offensive"
     },
     {
@@ -485,7 +485,7 @@
         "name": "FIRE CLUTCH RING",
         "weight": 0.8,
         "effect": "Increases fire attack but compromises damage absorption",
-        "actualEffect": "Increases fire attack by 15%, but reduces damage absorption by 10%",
+        "actualEffect": "Increased fire attack by 15%, but reduces damage absorption by 10%",
         "category": "Offensive"
     },
     {
@@ -494,7 +494,178 @@
         "name": "DARK CLUTCH RING",
         "weight": 0.8,
         "effect": "Increases dark attack but compromises damage absorption",
-        "actualEffect": "Increases dark attack by 15%, but reduces damage absorption by 10%",
+        "actualEffect": "Increased dark attack by 15%, but reduces damage absorption by 10%",
         "category": "Offensive"
+    },
+    {
+        "id": 53,
+        "image": "Red_Tearstone_Ring_DSIII.webp",
+        "name": "RED TEARSTONE RING",
+        "weight": 1.4,
+        "effect": "Boosts attack when HP is low",
+        "actualEffect": "Boosts attack by 20% when HP is below 20%",
+        "category": "Offensive"
+    },
+    {
+        "id": 54,
+        "image": "Blue_Tearstone_Ring_DSIII.webp",
+        "name": "BLUE TEARSTONE RING",
+        "weight": 1.1,
+        "effect": "Boosts defense when HP is low",
+        "actualEffect": "Boosts damage absorption by 20% when HP is below 20%",
+        "category": "Defensive"
+    },
+    {
+        "id": 55,
+        "image": "Lloyds_Sword_Ring.webp",
+        "name": "LLOYD'S SWORD RING",
+        "weight": 0.9,
+        "effect": "Boosts attack when HP is full",
+        "actualEffect": "Boosts attack power of weapons and spells by 10% when the player's HP is at least at 98% full.",
+        "category": "Offensive"
+    },
+    {
+        "id": 56,
+        "image": "Lloyds_Shield_Ring.webp",
+        "name": "LLOYD'S SHIELD RING",
+        "weight": 0.9,
+        "effect": "Boosts damage absorption when HP is full",
+        "actualEffect": "Boosts damage absorption by 25% when HP is full",
+        "category": "Defensive"
+    },
+    {
+        "id": 57,
+        "image": "Carthus_Milkring.webp",
+        "name": "CARTHUS MILKRING",
+        "weight": 0.8,
+        "effect": "Slightly boosts dexterity and obscures rolling",
+        "actualEffect": "Increased Dexterity by 3 and obscures the wearer while rolling.",
+        "category": "Special"
+    },
+    {
+        "id": 58,
+        "image": "Carthus_Bloodring.webp",
+        "name": "CARTHUS BLOODRING",
+        "weight": 0.8,
+        "effect": "Boosts rolling invincibility, at the cost of defense",
+        "actualEffect": "Boosts rolling invincibility while reducing damage absorption by 30% across the board.",
+        "category": "Special"
+    },
+    {
+        "id": 59,
+        "image": "Pontiffs_Right_Eye.webp",
+        "name": "PONTIFF'S RIGHT EYE",
+        "weight": 1.4,
+        "effect": "Boosts attacks as long as attacking persists",
+        "actualEffect": "Boosts attacks to a maximum of +10%, as long attacking persists.",
+        "category": "Offensive"
+    },
+    {
+        "id": 60,
+        "image": "Pontiffs_Left_Eye.webp",
+        "name": "PONTIFF'S LEFT EYE",
+        "weight": 0.9,
+        "effect": "Recovers HP with successive attacks",
+        "actualEffect": "Recovered HP with successive attacks, up to 30 HP per hit",
+        "category": "Defensive"
+    },
+    {
+        "id": 61,
+        "image": "Aldrichs_Ruby.webp",
+        "name": "ALDRICH'S RUBY",
+        "weight": 0.8,
+        "effect": "Recovers HP from critical attacks",
+        "actualEffect": "Recovered 85 HP for each successful critical attack.",
+        "category": "Defensive"
+    },
+    {
+        "id": 62,
+        "image": "Aldrichs_Sapphire.webp",
+        "name": "ALDRICH'S SAPPHIRE",
+        "weight": 0.8,
+        "effect": "Recovers FP from critical attacks",
+        "actualEffect": "Recovered 15 FP for each successful critical attack.",
+        "category": "Utility"
+    },
+    {
+        "id": 63,
+        "image": "Silvercat_Ring_DSIII.webp",
+        "name": "SILVERCAT RING",
+        "weight": 0.6,
+        "effect": "Prevents damage from falling",
+        "actualEffect": "Nullified all fall damage from survivable falls.",
+        "category": "Special"
+    },
+    {
+        "id": 64,
+        "image": "Slumbering_Dragoncrest_Ring_DSIII.webp",
+        "name": "SLUMBERING DRAGONCREST RING",
+        "weight": 0.7,
+        "effect": "Masks the sounds of its wearer",
+        "actualEffect": "Silenced all sounds made by its wearer.",
+        "category": "Special"
+    },
+    {
+        "id": 65,
+        "image": "Ring_of_Sacrifice_DSIII.webp",
+        "name": "RING OF SACRIFICE",
+        "weight": 1.0,
+        "effect": "Prevents loss of souls and humanity upon death, but breaks",
+        "actualEffect": "Prevented loss of souls and humanity upon death, but breaks upon use",
+        "category": "Special"
+    },
+    {
+        "id": 66,
+        "image": "Calamity_Ring_DSIII.webp",
+        "name": "CALAMITY RING",
+        "weight": 0.8,
+        "effect": "Receive double damage",
+        "actualEffect": "Reduced all absorption values by 100%, causing all incoming attacks to deal twice as much damage.",
+        "category": "Special"
+    },
+    {
+        "id": 67,
+        "image": "Skull_Ring.webp",
+        "name": "SKULL RING",
+        "weight": 0.6,
+        "effect": "Easier to be detected by enemies",
+        "actualEffect": "Increased aggro range of enemies towards wearer",
+        "category": "Special"
+    },
+    {
+        "id": 68,
+        "image": "Reversal_Ring.webp",
+        "name": "REVERSAL RING",
+        "weight": 0.5,
+        "effect": "Males can perform female actions and vice versa",
+        "actualEffect": "Swaped player's animation set to that of the opposite gender.",
+        "category": "Special"
+    },
+    {
+        "id": 69,
+        "image": "Untrue_White_Ring.webp",
+        "name": "UNTRUE WHITE RING",
+        "weight": 0.7,
+        "effect": "Take the appearance of a phantom",
+        "actualEffect": "Changed wearer's phantom appearance to that of a white phantom",
+        "category": "Special"
+    },
+    {
+        "id": 70,
+        "image": "Untrue_Dark_Ring.webp",
+        "name": "UNTRUE DARK RING",
+        "weight": 0.7,
+        "effect": "Retain human appearance while hollow",
+        "actualEffect": "Changed wearer's phantom appearance to that of a dark spirit",
+        "category": "Special"
+    },
+    {
+        "id": 71,
+        "image": "Obscuring_Ring.webp",
+        "name": "OBSCURING RING",
+        "weight": 0.9,
+        "effect": "Invisible to distant enemies",
+        "actualEffect": "Hiddden presence of its wearer when far away.",
+        "category": "Special"
     }
 ]
