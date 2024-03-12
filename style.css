@@ -228,3 +228,8 @@ p {
   font-size: small;
   color: #b7903c; /* Change to your desired color */
 }
+
+a {
+  text-decoration: none;
+  color: #d2401e;
+}
