@@ -6,7 +6,7 @@ Vue.createApp({
                 id: 1,
                 image: "Ashen_Estus_Ring.webp",
                 name: "ASHEN ESTUS RING",
-                weight: 30,
+                weight: 0.8,
                 calories: "800 kcal",
                 squirrels: "30 g",
                 fats: "50 g",
@@ -15,7 +15,7 @@ Vue.createApp({
                 id: 2,
                 image: "Chloranthy_Ring_29.webp",
                 name: "CHLORANTHY RING",
-                weight: 50,
+                weight: 0.7,
                 calories: "800 kcal",
                 squirrels: "30 g",
                 fats: "50 g",
@@ -24,7 +24,7 @@ Vue.createApp({
                 id: 3,
                 image: "Estus_Ring.webp",
                 name: "ESTUS RING",
-                weight: 55,
+                weight: 0.8,
                 calories: "800 kcal",
                 squirrels: "30 g",
                 fats: "50 g",
@@ -33,7 +33,7 @@ Vue.createApp({
                 id: 4,
                 image: "Havel28DSIII.webp",
                 name: "HAVEL'S RING",
-                weight: 45,
+                weight: 1.5,
                 calories: "800 kcal",
                 squirrels: "30 g",
                 fats: "50 g",
@@ -42,7 +42,7 @@ Vue.createApp({
                 id: 5,
                 image: "Life_Ring_29.webp",
                 name: "LIFE RING",
-                weight: 25,
+                weight: 0.3,
                 calories: "800 kcal",
                 squirrels: "30 g",
                 fats: "50 g",
@@ -51,7 +51,7 @@ Vue.createApp({
                 id: 6,
                 image: "Prisoner%27s_Chain.webp",
                 name: "PRISONER'S CHAIN RING",
-                weight: 85,
+                weight: 0.8,
                 calories: "800 kcal",
                 squirrels: "30 g",
                 fats: "50 g",
@@ -60,7 +60,7 @@ Vue.createApp({
                 id: 7,
                 image: "Ring_of_Favor.webp",
                 name: "RING OF FAVOR",
-                weight: 65,
+                weight: 1.5,
                 calories: "800 kcal",
                 squirrels: "30 g",
                 fats: "50 g",
@@ -69,19 +69,19 @@ Vue.createApp({
                 id: 8,
                 image: "Ring_of_Steel_Protection_29.webp",
                 name: "RING OF STEEL PROTECTION",
-                weight: 95,
+                weight: 0.8,
                 calories: "800 kcal",
                 squirrels: "30 g",
                 fats: "50 g",
               },
               {
-                  id: 9,
-                  image: "Sun_Princess_Ring.webp",
-                  name: "SUN PRINCESS RING",
-                  weight: 95,
-                  calories: "800 kcal",
-                  squirrels: "30 g",
-                  fats: "50 g",
+                id: 9,
+                image: "Sun_Princess_Ring.webp",
+                name: "SUN PRINCESS RING",
+                weight: 0.6,
+                calories: "800 kcal",
+                squirrels: "30 g",
+                fats: "50 g",
                 },
             ],
 
@@ -100,6 +100,16 @@ Vue.createApp({
       } else {
         this.cart.push({...ring, quantity: 1});
       }
+    },
+
+    getTotalWeight(){
+      var total = 0;
+
+      this.cart.forEach((item) => {
+        total += item.weight * item.quantity;
+      });
+
+      return total.toFixed(2);
     }
   }
 }).mount('#souls-rings')
