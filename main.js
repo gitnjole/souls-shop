@@ -101,6 +101,18 @@ Vue.createApp({
       });
 
       return total.toFixed(2);
+    },
+
+    getTotalEffects() {
+      const totalEffects = [];
+  
+      this.cart.forEach((item) => {
+        if (item.actualEffect) {
+          totalEffects.push(...item.actualEffect.split('\n'));
+        }
+      });
+  
+      return totalEffects;
     }
   }
 }).mount('#souls-rings')

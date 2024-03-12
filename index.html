@@ -91,6 +91,17 @@
             {{ getTotalWeight() }}
           </span>
         </div>
+
+        <div class="total-section">
+          <h6 class="total-title">Total Effects:</h6>
+          <ul class="effects-list">
+            <li v-for="(effect, index) in getTotalEffects()" :key="index">
+              {{ effect.trim() }}
+            </li>
+          </ul>
+        </div>
+           
+
       </div>
     </div>
   </div>
