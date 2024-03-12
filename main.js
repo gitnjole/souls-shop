@@ -115,6 +115,20 @@ Vue.createApp({
       });
   
       return totalEffects;
+    },
+
+    reduceItem(id) {
+      var item = this.cart.find((item) => item.id == id);
+
+      if (item.quantity > 1) {
+        item.quantity--;
+      } else {
+        this.cart = this.cart.filter((item) => item.id != id);
+      }
+    },
+
+    isRingChosen(id) {
+      return this.cart.some(item => item.id === id);
     }
   }
 }).mount('#souls-rings')
