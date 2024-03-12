@@ -10,6 +10,7 @@ git clone https://github.com/gitnjole/souls-shop
 # TODO
 
 - [ ] Add all rings
+- [ ] Implement shuffle button
 - [x] Implement total effect calculator
 - [x] Implement maximum of 4 rings
 - [ ] Finish README
