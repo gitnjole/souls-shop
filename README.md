@@ -2,6 +2,8 @@
 
 WIP - check back later!
 
+Check out a live demo on [netlify](https://guileless-dasik-332911.netlify.app/)
+
 Clone this project and try it out yourself
 ```bash
 git clone https://github.com/gitnjole/souls-shop
