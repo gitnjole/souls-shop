@@ -89,5 +89,17 @@ Vue.createApp({
 
             ]
       }
+  },
+  methods: {
+    addRing(id){
+      const ring = this.menu.find((ring) => ring.id == id)
+      const index = this.cart.findIndex((ring) => ring.id == id);
+
+      if(index != -1) {
+        this.cart[index].quantity++;
+      } else {
+        this.cart.push({...ring, quantity: 1});
+      }
+    }
   }
 }).mount('#souls-rings')
