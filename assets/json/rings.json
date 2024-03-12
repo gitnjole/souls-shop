@@ -443,7 +443,7 @@
     },
     {
         "id": 47,
-        "image": "Woodgrain_Ring.webp",
+        "image": "Wood_Grain_Ring.webp",
         "name": "WOOD GRAIN RING",
         "weight": 0.5,
         "effect": "Slows equipment degradation",
