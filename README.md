@@ -17,7 +17,9 @@ git clone https://github.com/gitnjole/souls-shop
 - [x] Implement maximum of 4 rings
 - [ ] Finish README
 - [x] Implement better data storage solution
-- [ ] Implement +1/+2/+3 versions of rings
+- [ ] **(partially implemented)** Implement +1/+2/+3 versions of rings
+- [ ] Add better button CSS to display max ring limit
+- [ ] Change 'cart' and 'menu' naming convention
 
 # View
 
