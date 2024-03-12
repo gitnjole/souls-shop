@@ -83,13 +83,15 @@ Vue.createApp({
   },
   methods: {
     addRing(id){
-      const ring = this.menu.find((ring) => ring.id == id)
-      const index = this.cart.findIndex((ring) => ring.id == id);
-
-      if(index != -1) {
-        this.cart[index].quantity++;
-      } else {
-        this.cart.push({...ring, quantity: 1});
+      if (this.cart.length < 4) {
+        const ring = this.menu.find((ring) => ring.id == id)
+        const index = this.cart.findIndex((item) => item.id == id);
+  
+        if(index != -1 && this.cart[index].quantity === 0) {
+          this.cart[index].quantity++;
+        } else if (index === -1) {
+          this.cart.push({...ring, quantity: 1});
+        }
       }
     },
 
