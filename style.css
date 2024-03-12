@@ -214,3 +214,17 @@ p {
 .effects-list .effect-item {
   margin-bottom: 5px;
 }
+
+.item .chosen {
+  background-color: #999;
+  cursor: not-allowed;
+}
+
+.item .chosen:hover {
+  background-color: #999;
+}
+
+.remove {
+  font-size: small;
+  color: #b7903c; /* Change to your desired color */
+}

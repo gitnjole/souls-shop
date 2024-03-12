@@ -63,9 +63,7 @@
               </h5>
 
               <p>
-                <button type="button" class="add"></button>
-                {{item.quantity}}
-                <button type="button" class="remove"></button>
+                <button type="button" class="remove" @click="reduceItem(item.id)" style="font-size: small; color: #b7903c"> REMOVE </button>
               </p>
 
               <div cass="order-item-details">
