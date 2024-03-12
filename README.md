@@ -2,6 +2,11 @@
 
 WIP - check back later!
 
+Clone this project and try it out yourself
+```bash
+git clone https://github.com/gitnjole/souls-shop
+```
+
 # TODO
 
 - [ ] Add all rings
