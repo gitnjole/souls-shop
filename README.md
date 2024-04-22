@@ -1,5 +1,10 @@
 # souls-shop
 
+<p align="center">
+<img width="80px" src="assets/images/readme/js.png"/>
+<img width="80px" src="assets/images/readme/vue.png"/>
+</p> 
+
 ## What is souls-shop
 
 A project developed to explore JavaScript and Vue.js fundamentals. I focused on data binding and reactivity.
