@@ -121,17 +121,15 @@ p {
 }
 .cart .order-items {
   max-height: 75vh;
-  overflow-y: scroll;
   position: relative;
   display: inline-block;
-  width: 100%;
+  width: 100vw;
   vertical-align: middle;
 }
 .cart .order-items .order-item {
   position: relative;
   display: flex;
   align-items: center;
-  margin-top: 50px;
 }
 .cart .order-items .order-item:first-child {
   margin-top: 0;
@@ -274,4 +272,8 @@ a {
   max-width: 300px;
   max-height: 300px;
   object-fit: cover;
+}
+
+.order-items .order-item:last-child { 
+  margin-bottom: 1rem !important;  
 }
